@@ -1,0 +1,12 @@
+create database usuarios;
+
+use usuarios;
+
+create table users(
+   id int AUTO_INCREMENT,
+   nombre varchar(50) NOT NULL,
+   apellidos varchar(50) NOT NULL,
+   edad int NOT NULL, 
+   fecha_registro datetime NOT NULL,
+   PRIMARY KEY(id)
+);
